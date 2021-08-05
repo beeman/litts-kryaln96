@@ -1,0 +1,38 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "my-counter",
+      "attributes": [
+        {
+          "name": "count",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "count2",
+          "type": "number",
+          "default": "0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "count",
+          "attribute": "count",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "count2",
+          "attribute": "count2",
+          "type": "number",
+          "default": "0"
+        },
+        {
+          "name": "styles",
+          "default": "\"css`\\n      * {\\n        font-size: 200%;\\n      }\\n\\n      span {\\n        width: 4rem;\\n        display: inline-block;\\n        text-align: center;\\n      }\\n\\n      button {\\n        width: 4rem;\\n        height: 4rem;\\n        border: none;\\n        border-radius: 10px;\\n        background-color: seagreen;\\n        color: white;\\n      }`\""
+        }
+      ]
+    }
+  ]
+}

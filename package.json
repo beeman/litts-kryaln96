@@ -1,0 +1,10 @@
+{
+  "name": "@wcd/beeman.litts-kryaln96",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "wcd-cli serve Wh0Wz7nqqx5yD94MjUGx --open"
+  },
+  "dependencies": {
+    "@kin-sdk/client": "0.7.0"
+  }
+}
